@@ -12,4 +12,5 @@
 -(NSString*)md5;
 -(NSString*)sha1;
 -(NSString*)sha256;
+-(NSString*)base64;
 @end

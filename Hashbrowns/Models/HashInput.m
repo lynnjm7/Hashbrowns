@@ -35,9 +35,7 @@
 }
 
 -(NSString*)calculateBase64Hash  {
-    NSData *data = [self.input dataUsingEncoding:NSUTF8StringEncoding];
-    NSString *base64Encoding = [data base64EncodedStringWithOptions:0];
-    return base64Encoding;
+    return [self.input base64];
 }
 
 

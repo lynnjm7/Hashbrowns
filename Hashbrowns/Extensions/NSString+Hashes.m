@@ -13,7 +13,7 @@
 
 @implementation NSString (Hashes)
 
-- (NSString*) md5 {
+- (NSString*)md5 {
     const char *str = [self UTF8String];
     uint8_t result[CC_MD5_DIGEST_LENGTH];
     
@@ -50,6 +50,12 @@
     }
     
     return output;
+}
+
+-(NSString*)base64 {
+    NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *base64Encoding = [data base64EncodedStringWithOptions:0];
+    return base64Encoding;
 }
 
 @end
