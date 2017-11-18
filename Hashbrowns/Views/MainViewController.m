@@ -9,9 +9,7 @@
 #import "MainViewController.h"
 #import "HashDisplayViewController.h"
 
-@implementation MainViewController {
-    HashInput *hashInput;
-}
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

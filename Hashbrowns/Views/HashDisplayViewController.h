@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "HashInput.h"
 
 @interface HashDisplayViewController : NSViewController
 @property (weak) IBOutlet NSTextField *md5Label;
