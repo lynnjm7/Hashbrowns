@@ -728,33 +728,6 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-cv-4nb">
-                                <rect key="frame" x="348" y="19" width="112" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="roundRect" title="Generate Hashes" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="u0T-LR-gjX">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="cellTitle"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cWV-eV-jeF">
-                                <rect key="frame" x="348" y="19" width="112" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="roundRect" title="Generate Hashes" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mh0-VU-ORb">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="cellTitle"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t4G-sn-7um">
-                                <rect key="frame" x="348" y="19" width="112" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="roundRect" title="Generate Hashes" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Hni-qj-1jg">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="cellTitle"/>
-                                    <connections>
-                                        <action selector="generateHashButtonPressed:" target="XfG-lQ-9wD" id="EY3-X2-WnJ"/>
-                                    </connections>
-                                </buttonCell>
-                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PO7-qO-Kar">
                                 <rect key="frame" x="348" y="19" width="112" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -763,16 +736,15 @@
                                     <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="generateHashButtonPressed:" target="XfG-lQ-9wD" id="bCj-gR-bfJ"/>
-                                    <segue destination="1O8-50-S9p" kind="modal" id="wYz-Vw-5qR"/>
+                                    <segue destination="1O8-50-S9p" kind="modal" identifier="DisplayHashes" id="lfM-23-hLM"/>
                                 </connections>
                             </button>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="generateHashButton" destination="t4G-sn-7um" id="mdj-zX-06B"/>
-                        <outlet property="inputLabel" destination="QRv-BV-bxO" id="RJe-BU-dDf"/>
-                        <outlet property="testArea" destination="3lO-9y-8Cx" id="NgR-OL-2GA"/>
+                        <outlet property="generateHashButton" destination="PO7-qO-Kar" id="X9X-ql-1eP"/>
+                        <outlet property="inputLabel" destination="QRv-BV-bxO" id="NOx-Fa-uev"/>
+                        <outlet property="testArea" destination="3lO-9y-8Cx" id="qX6-UT-zgg"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

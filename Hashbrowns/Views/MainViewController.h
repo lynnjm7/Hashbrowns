@@ -14,7 +14,5 @@
 @property (weak) IBOutlet NSTextField *testArea;
 @property (weak) IBOutlet NSTextField *inputLabel;
 
-- (IBAction)generateHashButtonPressed:(id)sender;
-
 @end
 

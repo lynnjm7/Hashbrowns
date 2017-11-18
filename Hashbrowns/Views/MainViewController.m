@@ -15,8 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    hashInput = [[HashInput alloc] init];
 }
 
 
@@ -26,18 +24,13 @@
     // Update the view, if already loaded.
 }
 
-
-- (IBAction)generateHashButtonPressed:(id)sender {
-    NSLog(@"hash button pressed");
-//    NSLog(@"%@", [_testArea stringValue]);
-}
-
 - (void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender {
+    hashInput = [[HashInput alloc] initWithInput:[self.testArea stringValue]];
     NSLog(@"preparing for segue...");
     if ([segue.identifier isEqualToString:@"DisplayHashes"]) {
         NSLog(@"display hashes seque...");
         HashDisplayViewController *destination = [segue destinationController];
-        destination.hashInput = self->hashInput;
+        destination.hashInput = hashInput;
     }
 }
 @end
