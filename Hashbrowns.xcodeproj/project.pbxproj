@@ -20,6 +20,8 @@
 		8472D37E1FBFF3C8007D62C3 /* HashInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */; };
 		8472D3841FBFFD73007D62C3 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3831FBFFD73007D62C3 /* NSString+Hashes.m */; };
 		8472D3851FBFFD73007D62C3 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3831FBFFD73007D62C3 /* NSString+Hashes.m */; };
+		8472D3891FC004DD007D62C3 /* HashDisplayViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3881FC004DD007D62C3 /* HashDisplayViewControllers.m */; };
+		8472D38A1FC004DD007D62C3 /* HashDisplayViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3881FC004DD007D62C3 /* HashDisplayViewControllers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashInputTests.m; sourceTree = "<group>"; };
 		8472D3831FBFFD73007D62C3 /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
 		8472D3861FBFFDB6007D62C3 /* NSString+Hashes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
+		8472D3871FC004DD007D62C3 /* HashDisplayViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashDisplayViewControllers.h; sourceTree = "<group>"; };
+		8472D3881FC004DD007D62C3 /* HashDisplayViewControllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashDisplayViewControllers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 			children = (
 				8472D3701FBFEFB5007D62C3 /* MainViewController.h */,
 				8472D3711FBFEFB5007D62C3 /* MainViewController.m */,
+				8472D3871FC004DD007D62C3 /* HashDisplayViewControllers.h */,
+				8472D3881FC004DD007D62C3 /* HashDisplayViewControllers.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				8472D3841FBFFD73007D62C3 /* NSString+Hashes.m in Sources */,
 				8472D3771FBFF030007D62C3 /* HashInput.m in Sources */,
 				8472D3721FBFEFB5007D62C3 /* MainViewController.m in Sources */,
+				8472D3891FC004DD007D62C3 /* HashDisplayViewControllers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 				8472D3851FBFFD73007D62C3 /* NSString+Hashes.m in Sources */,
 				8472D37E1FBFF3C8007D62C3 /* HashInputTests.m in Sources */,
 				8472D3731FBFEFB5007D62C3 /* MainViewController.m in Sources */,
+				8472D38A1FC004DD007D62C3 /* HashDisplayViewControllers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
