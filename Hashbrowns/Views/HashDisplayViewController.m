@@ -6,13 +6,13 @@
 //  Copyright © 2017 jml. All rights reserved.
 //
 
-#import "HashDisplayViewControllers.h"
+#import "HashDisplayViewController.h"
 
-@interface HashDisplayViewControllers ()
+@interface HashDisplayViewController ()
 
 @end
 
-@implementation HashDisplayViewControllers
+@implementation HashDisplayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

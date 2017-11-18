@@ -1,5 +1,5 @@
 //
-//  HashDisplayViewControllers.h
+//  MainWindow.h
 //  Hashbrowns
 //
 //  Created by admin on 11/17/17.
@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface HashDisplayViewControllers : NSViewController
+// This class exists to fix a weird bug with Apple's SDK...
+@interface MainWindow : NSWindow
 
 @end
