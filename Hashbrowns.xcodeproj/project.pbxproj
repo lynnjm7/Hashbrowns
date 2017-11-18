@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8472D33F1FBFE656007D62C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D33E1FBFE656007D62C3 /* AppDelegate.m */; };
-		8472D3421FBFE656007D62C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3411FBFE656007D62C3 /* MainViewController.m */; };
 		8472D3441FBFE656007D62C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472D3431FBFE656007D62C3 /* Assets.xcassets */; };
 		8472D3471FBFE656007D62C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472D3451FBFE656007D62C3 /* Main.storyboard */; };
 		8472D34A1FBFE656007D62C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3491FBFE656007D62C3 /* main.m */; };
 		8472D3551FBFE656007D62C3 /* HashbrownsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3541FBFE656007D62C3 /* HashbrownsTests.m */; };
 		8472D3601FBFE656007D62C3 /* HashbrownsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D35F1FBFE656007D62C3 /* HashbrownsUITests.m */; };
+		8472D3721FBFEFB5007D62C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3711FBFEFB5007D62C3 /* MainViewController.m */; };
+		8472D3731FBFEFB5007D62C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3711FBFEFB5007D62C3 /* MainViewController.m */; };
+		8472D3771FBFF030007D62C3 /* HashInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3761FBFF030007D62C3 /* HashInput.m */; };
+		8472D3781FBFF030007D62C3 /* HashInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D3761FBFF030007D62C3 /* HashInput.m */; };
+		8472D37E1FBFF3C8007D62C3 /* HashInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 		8472D33A1FBFE656007D62C3 /* Hashbrowns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hashbrowns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472D33D1FBFE656007D62C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8472D33E1FBFE656007D62C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8472D3401FBFE656007D62C3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		8472D3411FBFE656007D62C3 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8472D3431FBFE656007D62C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8472D3461FBFE656007D62C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8472D3481FBFE656007D62C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,11 @@
 		8472D35B1FBFE656007D62C3 /* HashbrownsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashbrownsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472D35F1FBFE656007D62C3 /* HashbrownsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashbrownsUITests.m; sourceTree = "<group>"; };
 		8472D3611FBFE656007D62C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472D3701FBFEFB5007D62C3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8472D3711FBFEFB5007D62C3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8472D3761FBFF030007D62C3 /* HashInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashInput.m; sourceTree = "<group>"; };
+		8472D3791FBFF042007D62C3 /* HashInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashInput.h; sourceTree = "<group>"; };
+		8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashInputTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +107,11 @@
 		8472D33C1FBFE656007D62C3 /* Hashbrowns */ = {
 			isa = PBXGroup;
 			children = (
+				8472D3751FBFEFD9007D62C3 /* Controllers */,
+				8472D3741FBFEFCE007D62C3 /* Models */,
+				8472D36F1FBFEFB5007D62C3 /* Views */,
 				8472D33D1FBFE656007D62C3 /* AppDelegate.h */,
 				8472D33E1FBFE656007D62C3 /* AppDelegate.m */,
-				8472D3401FBFE656007D62C3 /* MainViewController.h */,
-				8472D3411FBFE656007D62C3 /* MainViewController.m */,
 				8472D3431FBFE656007D62C3 /* Assets.xcassets */,
 				8472D3451FBFE656007D62C3 /* Main.storyboard */,
 				8472D3481FBFE656007D62C3 /* Info.plist */,
@@ -118,6 +126,7 @@
 			children = (
 				8472D3541FBFE656007D62C3 /* HashbrownsTests.m */,
 				8472D3561FBFE656007D62C3 /* Info.plist */,
+				8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */,
 			);
 			path = HashbrownsTests;
 			sourceTree = "<group>";
@@ -129,6 +138,31 @@
 				8472D3611FBFE656007D62C3 /* Info.plist */,
 			);
 			path = HashbrownsUITests;
+			sourceTree = "<group>";
+		};
+		8472D36F1FBFEFB5007D62C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8472D3701FBFEFB5007D62C3 /* MainViewController.h */,
+				8472D3711FBFEFB5007D62C3 /* MainViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8472D3741FBFEFCE007D62C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8472D3761FBFF030007D62C3 /* HashInput.m */,
+				8472D3791FBFF042007D62C3 /* HashInput.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8472D3751FBFEFD9007D62C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8472D3421FBFE656007D62C3 /* MainViewController.m in Sources */,
 				8472D34A1FBFE656007D62C3 /* main.m in Sources */,
 				8472D33F1FBFE656007D62C3 /* AppDelegate.m in Sources */,
+				8472D3771FBFF030007D62C3 /* HashInput.m in Sources */,
+				8472D3721FBFEFB5007D62C3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8472D3781FBFF030007D62C3 /* HashInput.m in Sources */,
 				8472D3551FBFE656007D62C3 /* HashbrownsTests.m in Sources */,
+				8472D37E1FBFF3C8007D62C3 /* HashInputTests.m in Sources */,
+				8472D3731FBFEFB5007D62C3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
