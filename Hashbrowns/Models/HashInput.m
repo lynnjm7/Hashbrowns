@@ -27,11 +27,11 @@
 }
 
 -(NSString*)calculateSHA1Hash {
-    return @"Hello world";
+    return [self.input sha1];
 }
 
--(NSString*)calculateSHA256Hash  {
-    return @"Hello world";
+-(NSString*)calculateSHA256Hash {
+    return [self.input sha256];
 }
 
 -(NSString*)calculateBase64Hash  {
