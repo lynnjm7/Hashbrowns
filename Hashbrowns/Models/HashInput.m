@@ -25,7 +25,7 @@
 }
 
 -(NSString*)calculateSHA1Hash {
-        return @"Hello world";
+    return @"Hello world";
 }
 
 -(NSString*)calculateSHA256Hash  {
@@ -33,7 +33,9 @@
 }
 
 -(NSString*)calculateBase64Hash  {
-    return @"Hello world";
+    NSData *data = [self.input dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *base64Encoding = [data base64EncodedStringWithOptions:0];
+    return base64Encoding;
 }
 
 

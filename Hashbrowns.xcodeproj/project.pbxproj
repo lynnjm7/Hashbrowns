@@ -57,6 +57,9 @@
 		8472D3761FBFF030007D62C3 /* HashInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashInput.m; sourceTree = "<group>"; };
 		8472D3791FBFF042007D62C3 /* HashInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashInput.h; sourceTree = "<group>"; };
 		8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashInputTests.m; sourceTree = "<group>"; };
+		8472D3801FBFFAC9007D62C3 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		8472D3811FBFFAF1007D62C3 /* NSString+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		8472D3821FBFFB08007D62C3 /* NSString+SHA256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA256.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +110,7 @@
 		8472D33C1FBFE656007D62C3 /* Hashbrowns */ = {
 			isa = PBXGroup;
 			children = (
-				8472D3751FBFEFD9007D62C3 /* Controllers */,
+				8472D37F1FBFFA9A007D62C3 /* Extensions */,
 				8472D3741FBFEFCE007D62C3 /* Models */,
 				8472D36F1FBFEFB5007D62C3 /* Views */,
 				8472D33D1FBFE656007D62C3 /* AppDelegate.h */,
@@ -158,11 +161,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8472D3751FBFEFD9007D62C3 /* Controllers */ = {
+		8472D37F1FBFFA9A007D62C3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8472D3801FBFFAC9007D62C3 /* NSString+MD5.h */,
+				8472D3811FBFFAF1007D62C3 /* NSString+SHA1.h */,
+				8472D3821FBFFB08007D62C3 /* NSString+SHA256.h */,
 			);
-			path = Controllers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
