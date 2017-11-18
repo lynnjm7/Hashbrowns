@@ -6,9 +6,9 @@
 //  Copyright © 2017 jml. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,7 @@
 }
 
 
+- (IBAction)generateHashButtonPressed:(id)sender {
+    NSLog(@"hash button pressed");
+}
 @end
