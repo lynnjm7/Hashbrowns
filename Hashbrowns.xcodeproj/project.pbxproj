@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8448290F1FC031C900214348 /* NSString+HashesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448290E1FC031C900214348 /* NSString+HashesTests.m */; };
 		8472D33F1FBFE656007D62C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472D33E1FBFE656007D62C3 /* AppDelegate.m */; };
 		8472D3441FBFE656007D62C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472D3431FBFE656007D62C3 /* Assets.xcassets */; };
 		8472D3471FBFE656007D62C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472D3451FBFE656007D62C3 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8448290E1FC031C900214348 /* NSString+HashesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HashesTests.m"; sourceTree = "<group>"; };
 		8472D33A1FBFE656007D62C3 /* Hashbrowns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hashbrowns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472D33D1FBFE656007D62C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8472D33E1FBFE656007D62C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				8472D3541FBFE656007D62C3 /* HashbrownsTests.m */,
 				8472D3561FBFE656007D62C3 /* Info.plist */,
 				8472D37D1FBFF3C8007D62C3 /* HashInputTests.m */,
+				8448290E1FC031C900214348 /* NSString+HashesTests.m */,
 			);
 			path = HashbrownsTests;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				8472D3551FBFE656007D62C3 /* HashbrownsTests.m in Sources */,
 				8472D3851FBFFD73007D62C3 /* NSString+Hashes.m in Sources */,
 				8472D37E1FBFF3C8007D62C3 /* HashInputTests.m in Sources */,
+				8448290F1FC031C900214348 /* NSString+HashesTests.m in Sources */,
 				8472D3731FBFEFB5007D62C3 /* MainViewController.m in Sources */,
 				8472D38A1FC004DD007D62C3 /* HashDisplayViewController.m in Sources */,
 			);

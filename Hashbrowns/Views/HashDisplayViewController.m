@@ -7,6 +7,7 @@
 //
 
 #import "HashDisplayViewController.h"
+#import "NSString+Hashes.h"
 
 @interface HashDisplayViewController ()
 
@@ -17,10 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _md5ValueLabel.stringValue = [self.hashInput calculateMD5Hash];
-    _sha1ValueLabel.stringValue = [self.hashInput calculateSHA1Hash];
-    _sha256ValueLabel.stringValue = [self.hashInput calculateSHA256Hash];
-    _base64ValueLabel.stringValue = [self.hashInput calculateBase64Hash];
+    _md5ValueLabel.stringValue = [self.inputValue md5];
+    _sha1ValueLabel.stringValue = [self.inputValue sha1];
+    _sha256ValueLabel.stringValue = [self.inputValue sha256];
+    _base64ValueLabel.stringValue = [self.inputValue base64];
 }
 
 @end

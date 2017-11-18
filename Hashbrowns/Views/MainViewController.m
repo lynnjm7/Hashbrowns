@@ -25,12 +25,9 @@
 }
 
 - (void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender {
-    hashInput = [[HashInput alloc] initWithInput:[self.testArea stringValue]];
-    NSLog(@"preparing for segue...");
     if ([segue.identifier isEqualToString:@"DisplayHashes"]) {
-        NSLog(@"display hashes seque...");
         HashDisplayViewController *destination = [segue destinationController];
-        destination.hashInput = hashInput;
+        destination.inputValue = [self.testArea stringValue];
     }
 }
 @end

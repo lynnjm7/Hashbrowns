@@ -20,6 +20,6 @@
 @property (weak) IBOutlet NSTextField *sha256ValueLabel;
 @property (weak) IBOutlet NSTextField *base64ValueLabel;
 
-@property HashInput *hashInput;
+@property (weak) NSString *inputValue;
 
 @end
