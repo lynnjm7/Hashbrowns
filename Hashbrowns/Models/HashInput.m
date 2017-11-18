@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+
+#import "NSString+Hashes.h"
 #import "HashInput.h"
 
 @implementation HashInput
@@ -21,7 +23,7 @@
 }
 
 -(NSString*)calculateMD5Hash {
-    return @"Hello world";
+    return [self.input md5];
 }
 
 -(NSString*)calculateSHA1Hash {

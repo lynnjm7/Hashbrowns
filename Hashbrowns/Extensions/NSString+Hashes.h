@@ -1,5 +1,5 @@
 //
-//  NSString+SHA256.h
+//  NSString+Hashes.h
 //  Hashbrowns
 //
 //  Created by admin on 11/17/17.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString ()
-
+@interface NSString (Hashes)
+-(NSString*)md5;
+-(NSString*)sha1;
+-(NSString*)sha256;
 @end
