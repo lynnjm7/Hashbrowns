@@ -1,11 +1,3 @@
-//
-//  NSString+NSString_MD5.h
-//  Hashbrowns
-//
-//  Created by admin on 11/17/17.
-//  Copyright © 2017 jml. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonDigest.h>
 
@@ -18,7 +10,7 @@
     uint8_t result[CC_MD5_DIGEST_LENGTH];
     
     CC_MD5(str, (int)strlen(str), result);
-    NSMutableString *output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    NSMutableString *output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH];
     for (int i = 0; i < CC_MD5_DIGEST_LENGTH; ++i) {
         [output appendFormat:@"%02x", result[i]];
     }
@@ -31,7 +23,7 @@
     uint8_t result[CC_SHA1_DIGEST_LENGTH];
     
     CC_SHA1(str, (int)strlen(str), result);
-    NSMutableString *output = [NSMutableString stringWithCapacity:CC_SHA1_DIGEST_LENGTH * 2];
+    NSMutableString *output = [NSMutableString stringWithCapacity:CC_SHA1_DIGEST_LENGTH];
     for (int i = 0; i < CC_SHA1_DIGEST_LENGTH; ++i) {
         [output appendFormat:@"%02x", result[i]];
     }
@@ -44,7 +36,7 @@
     uint8_t result[CC_SHA256_DIGEST_LENGTH];
     
     CC_SHA256(str, (int)strlen(str), result);
-    NSMutableString *output = [NSMutableString stringWithCapacity:CC_SHA256_DIGEST_LENGTH * 2];
+    NSMutableString *output = [NSMutableString stringWithCapacity:CC_SHA256_DIGEST_LENGTH];
     for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; ++i) {
         [output appendFormat:@"%02x", result[i]];
     }
@@ -54,8 +46,7 @@
 
 -(NSString*)base64 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
-    NSString *base64Encoding = [data base64EncodedStringWithOptions:0];
-    return base64Encoding;
+    return [data base64EncodedStringWithOptions:0];
 }
 
 @end

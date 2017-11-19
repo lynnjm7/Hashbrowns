@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  Hashbrowns
-//
-//  Created by admin on 11/17/17.
-//  Copyright © 2017 jml. All rights reserved.
-//
-
 #import "MainViewController.h"
 #import "HashDisplayViewController.h"
 

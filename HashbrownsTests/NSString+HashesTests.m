@@ -1,11 +1,3 @@
-//
-//  NSString+HashesTests.m
-//  HashbrownsTests
-//
-//  Created by admin on 11/18/17.
-//  Copyright © 2017 jml. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 #import "NSString+Hashes.h"
 
@@ -23,7 +15,6 @@
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 

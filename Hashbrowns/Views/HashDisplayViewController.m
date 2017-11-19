@@ -1,11 +1,3 @@
-//
-//  HashDisplayViewControllers.m
-//  Hashbrowns
-//
-//  Created by admin on 11/17/17.
-//  Copyright © 2017 jml. All rights reserved.
-//
-
 #import "HashDisplayViewController.h"
 #import "NSString+Hashes.h"
 
