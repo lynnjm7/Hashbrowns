@@ -744,7 +744,7 @@
                     <connections>
                         <outlet property="generateHashButton" destination="PO7-qO-Kar" id="X9X-ql-1eP"/>
                         <outlet property="inputLabel" destination="QRv-BV-bxO" id="NOx-Fa-uev"/>
-                        <outlet property="testArea" destination="3lO-9y-8Cx" id="qX6-UT-zgg"/>
+                        <outlet property="textArea" destination="3lO-9y-8Cx" id="Pfw-ua-hHZ"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

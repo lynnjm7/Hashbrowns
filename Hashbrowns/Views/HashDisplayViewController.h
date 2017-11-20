@@ -1,13 +1,4 @@
-//
-//  HashDisplayViewControllers.h
-//  Hashbrowns
-//
-//  Created by admin on 11/17/17.
-//  Copyright © 2017 jml. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
-#import "HashInput.h"
 
 @interface HashDisplayViewController : NSViewController
 @property (weak) IBOutlet NSTextField *md5Label;
@@ -20,6 +11,9 @@
 @property (weak) IBOutlet NSTextField *sha256ValueLabel;
 @property (weak) IBOutlet NSTextField *base64ValueLabel;
 
-@property HashInput *hashInput;
+/// The text content that is used to calculate the hash value to display.
+/// This value is passed on the segue from the previous view controller
+/// (i.e. the MainViewController).
+@property (weak) NSString *inputValue;
 
 @end
