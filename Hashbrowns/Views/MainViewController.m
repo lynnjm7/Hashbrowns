@@ -17,7 +17,7 @@
 - (void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"DisplayHashes"]) {
         HashDisplayViewController *destination = [segue destinationController];
-        destination.inputValue = [self.testArea stringValue];
+        destination.inputValue = [self.textArea stringValue];
     }
 }
 @end
