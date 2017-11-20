@@ -13,11 +13,10 @@ the intention of this project.
 To use this app, simply enter a string/text value into the input box and click
 "Generate Hashes." A new window will pop up displaying the following hash 
 calculations:
-
-    * Base64 encoding
-    * MD5 hash
-    * SHA-1 hash
-    * SHA-256 hash
+  * Base64 encoding
+  * MD5 hash
+  * SHA-1 hash
+  * SHA-256 hash
 
 To enter another string to hash, simply close the hash popup and enter a new 
 string into the text field.
